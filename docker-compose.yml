@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   springapp:
-    image: springapp:latest
+    image: pnalladevops/springapp:VERSION
     ports:
     - 3030:8080
     networks:
